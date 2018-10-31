@@ -19,6 +19,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4430892293923516}
+  - component: {fileID: 114257875328966880}
+  - component: {fileID: 50931119259769458}
   m_Layer: 0
   m_Name: Scenery
   m_TagString: Untagged
@@ -152,7 +154,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1941568829488608}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.7639842, y: -0.036395106, z: -8.491331}
+  m_LocalPosition: {x: -3.7639842, y: -0.036395106, z: -1.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4571573676800886}
@@ -160,6 +162,26 @@ Transform:
   m_Father: {fileID: 4430892293923516}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &50931119259769458
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1542450967611978}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!61 &61509705893060082
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -210,6 +232,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 9.6, y: 5.4}
   m_EdgeRadius: 0
+--- !u!114 &114257875328966880
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1542450967611978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3ff08b84d7d84976ac4e63a512d619c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212665440456689738
 SpriteRenderer:
   m_ObjectHideFlags: 1
